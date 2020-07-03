@@ -1,0 +1,38 @@
+
+
+                             Module 5
+
+                         Python Assignment
+
+
+                                                    Datta M Pavan
+                                                    321910302020
+ 
+1.    What is dictionary in Python? Explain with an example.
+Ans:  Dictionaries are another example of a data structure. A dictionary in Python is 
+      just like a dictionary in the real world. Python Dictionary are defined into two 
+      elements Keys and Values. Keys will be a single element. Values can be a list or
+      list within a list, numbers, etc.
+      mydict = {'StuName': 'Ajeet', 'StuAge': 30, 'StuCity': 'Agra'}
+print("Student Age is:", mydict['StuAge'])
+print("Student City is:", mydict['StuCity'])
+
+
+2.    Write a Python program to sum all the items in a list.
+Ans:  def sum_list(items):
+    sum_numbers = 0
+    for x in items:
+        sum_numbers += x
+    return sum_numbers
+print(sum_list([1,2,-8]))
+
+
+3.    Write a Python program to create a list of empty dictionaries. 
+Ans:  n = 5
+l = [{} for _ in range(n)]
+print(l)
+
+
+4.    Write a Python program to access dictionary keys element by index. 
+Ans:  num = {'physics': 80, 'math': 90, 'chemistry': 86}
+print(list(num)[0])
